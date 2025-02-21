@@ -1,0 +1,45 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(50, 170, 118);
+    color: black;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+
+
+a {
+    color: rgb(78, 8, 255);
+}
+
+a:visited {
+    color: rgb(142, 66, 34);
+}
+
+a:hover, a:active {
+    color: rgb(157, 56, 2);
+}
+
+
+tr, th, td, caption  {
+    border: 2px solid #000;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+/* Contact Page */ 
+h1.contact {
+    text-align: left;
+}
